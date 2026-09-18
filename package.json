@@ -1,11 +1,13 @@
 {
     "name": "@robert.tools/typings",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A global set of common used types.",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
     "exports": {
-        ".": "./dist/index.js"
+        ".": {
+            "types": "./dist/index.d.ts"
+        }
     },
     "files": [
         "dist"
