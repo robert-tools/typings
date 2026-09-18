@@ -1,18 +1,13 @@
-/**
- * 🧪 testing module
- * @version <version>
- * @date <date>
- * @license <license>
- * @author <author> <github.com/<user>>
- */
-import { sample } from './index';
+import type { $string } from './index.d';
 
-describe('@robert.tools/sample', () => {
-    it('should return a <name> string', () => {
-        expect(sample('hello')).toBe('sample: hello');
-    });
-
-    it('should return a <name> string with empty input', () => {
-        expect(sample('')).toBe('sample: ');
+describe('testing types', () => {
+    it('should handle $string type correctly', () => {
+        const nullVar: $string = null;
+        const strVar: $string = 'Hello, world!';
+        const numVar = 123;
+        expect(nullVar).toBeNull();
+        expect(strVar).toEqual('Hello, world!');
+        expect(typeof numVar).not.toEqual(typeof strVar);
+        // expect(typeof nullVar).toEqual(typeof strVar);
     });
 });

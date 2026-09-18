@@ -1,21 +1,21 @@
-# 🗂️ @robert.tools/sample
+# 🗂️ @robert.tools/typings
 
-<description>
+A global set of common used types.
 
 ## 📜 Usage
 
 ### 🟢 Installation
 
 ```bash
-npm install @robert.tools/sample
+npm install @robert.tools/typings
 ```
 
 ### 📝 Sample usage
 
 ```typescript
-import { <name> } from '@robert.tools/sample';
+import { typings } from '@robert.tools/typings';
 
-<name>('hello'); // '<name>: hello'
+typings('hello'); // 'typings: hello'
 ```
 
 ## 🗃️ commands
