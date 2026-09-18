@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.3
+- fix export
+
 ## 1.0.2
 - fix typing export, remove main
 
