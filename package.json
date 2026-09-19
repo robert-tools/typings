@@ -1,6 +1,6 @@
 {
     "name": "@robert.tools/typings",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "A global set of common used types.",
     "types": "./src/index.d.ts",
     "exports": {

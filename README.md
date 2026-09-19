@@ -13,15 +13,20 @@ npm install @robert.tools/typings
 ### 📝 Sample usage
 
 ```typescript
-import { typings } from '@robert.tools/typings';
+import type { $string } from '@robert.tools/typings';
 
-typings('hello'); // 'typings: hello'
+const myString: $string = 'hello';
+
 ```
 
 ## 🗃️ commands
-After an npm install with `npm i` the following commands are available:
-* initialize placeholders: `npm run init <semantic>`
-* release a new version: `npm run release <semantic>`
+some specific commands:
+* StringLike: `StringLike<`${number}`>` - a branded string type to avoid collisions with built-in string methods
+* KEY_VALUE: `{ key: string; value: string; }` - a type representing a key-value pair
+* $string: `string | null | undefined` - a type representing a string that can also be null or undefined
+* URI: `StringLike<`${FQDN | DOMAIN}`>` - a type representing a URI that can be a fully qualified domain name or a domain
+
+more typings are available in the package under [src/index.d.ts](src/index.d.ts)
 
 
 ## ⚖️ Notes

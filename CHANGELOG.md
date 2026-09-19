@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.4
+- add KEY_VALUE type
+
 ## 1.0.3
 - fix export
 
