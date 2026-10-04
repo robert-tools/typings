@@ -30,3 +30,9 @@ export type KEY_VALUE = {
     key: string;
     value: string;
 };
+export type ITEMS = {
+    [key: string]: any;
+};
+export type ITEMS_LIST = {
+    [key: string]: string[];
+};
