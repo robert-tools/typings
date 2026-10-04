@@ -1,6 +1,6 @@
 /**
  * 🏷️ typing module
- * @version 1.0.5
+ * @version 1.0.6
  * @date 2026-10-04
  * @license MIT
  * @author Robert Willemelis <github.com/willi84>
@@ -30,9 +30,13 @@ export type KEY_VALUE = {
     key: string;
     value: string;
 };
+
+// object, generic key-value pairs
 export type ITEMS = {
     [key: string]: any;
 };
+export type Json = Record<string, unknown>;
+
 export type ITEMS_LIST = {
     [key: string]: string[];
 };

@@ -1,6 +1,6 @@
 /**
  * 🗂️ main module
- * @version 1.0.5
+ * @version 1.0.6
  * @date 2026-10-04
  * @license MIT
  * @author Robert Willemelis <github.com/willi84>
